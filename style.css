@@ -1,0 +1,669 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  color:#333;
+}
+
+a{
+  color: #b7a077;
+}
+
+
+
+a:visited{
+  color: #a8a8a8;
+}
+
+a:hover{
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover img{
+  opacity: 0.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+}
+
+p{
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+#main_visual p img{
+  width: 1100px;
+}
+
+
+#main h1{
+  background-image: url(images/header_bg.jpg);
+  padding: 30px 30px 30px 20px;
+  font-size: 26px;
+  border-bottom: solid 1px #8b7348;
+}
+
+#main h2{
+  font-size: 22px;
+  border: 1px solid #003366;
+  padding: 11px 22px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#main h3{
+  font-size: 18px;
+  border-left: solid 3px #003366;
+  padding: 4px 9px 4px 14px;
+  
+}
+
+
+#main h4{
+  border-bottom: 0.5px solid #003366;
+  margin-bottom: -0.5px;
+}
+
+/* width 980から変更*/
+header{
+  width: 1100px;
+  margin: 0 auto;
+}
+header h1{
+  font: left;
+  margin:5px 0 10px;
+  display: inline;
+  margin-top: 10px;
+  }
+
+header #header_contact{
+  float: right;
+  margin: 55px 0 0;
+}
+header #header_contact a{
+  color: #003366;
+}
+header #header_contact a:hover{
+  color: coral;
+}
+
+.fa{
+  margin-left: 5px;
+ 
+}
+.fa-envelope{
+  font-size:60px !important;
+}
+
+
+
+#global_navi{
+  /*width 980 変更*/
+  width: 1100px;
+  clear: both;
+  overflow: hidden;
+  margin: 16px auto;
+}
+
+#global_navi ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#global_navi ul li{
+  /* width 195*/
+  width: 182.5px;
+  float: left;
+  margin-right: 1px;
+  text-align: center;
+}
+
+#global_navi ul li:last-child{
+  margin-right:0;
+
+}
+
+#global_navi ul li a{
+  display: block;
+  padding: 16px;
+  background-color:#003366;
+  color: #fff;
+  text-decoration: none;
+}
+#global_navi ul li.current a{
+  color:orange;
+}
+
+#global_navi ul li a:hover{
+
+  color: orange;
+}
+  
+
+#wrapper{
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+
+
+#main{
+  /*width830*/
+  width: 800px;
+  float: left;
+}
+
+
+#sidebar{
+  width: 260px;
+  float: right;
+}
+
+#breadcrumb ol li{
+  display: inline;
+}
+
+#breadcrumb ol li::after{
+  content: ">";
+  padding-left: 7px;
+}
+
+#breadcrumb{
+  font-size: smaller;
+}
+
+#breadcrumb ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#breadcrumb ol li:last-child::after{
+  content: none;
+}
+
+
+#side_banner{
+  margin-bottom: 30px;
+}
+/*クラス追加　高さ出した*/
+.side-link{
+  margin-top: 20px;
+}
+
+#side_banner h2{
+  background-color:#003366;
+  color:white;
+  padding: 7px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#side_banner h2:hover{
+  color:orange;
+}
+
+#side_banner ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#side_banner ul li{
+  margin-bottom: 10px;
+}
+
+#side_banner ul li a img{
+  width: 100%;
+}
+
+.twitter-widget{
+ width: 300px !important; 
+}
+
+
+
+footer{
+  background-color: #352b23;
+  text-align: center;
+}
+
+footer #footer_nav{
+  background-color: #efefef;
+  padding: 10px o;
+}
+
+footer #footer_nav ul{
+  outline-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer #footer_nav li{
+  display: inline;
+  border-left: solid 1px #aaa;
+  margin-left: 8px;
+  padding-left: 8px;
+  font-size: smaller;
+}
+
+footer #footer_nav li:last-child{
+  border-right: solid 1px #aaa;
+  padding-right: 8px;
+}
+
+footer small{
+  display: block;
+  padding: 8px 0px;
+  color: #fff;
+}
+
+#main_visual{
+  
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto 48px;
+  /*追加*/
+  text-align: center;
+}
+
+#point{
+  margin-bottom:30px;
+}
+
+#point section{
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+
+#point p{
+  margin-top: 10px;
+  display:inline-block;
+  margin-left: 30px;
+  
+}
+
+#point figure{
+  float: right;
+  margin-left: 0 0 0 16px;
+}
+
+#point figcaption{
+  color: #9C9689;
+  text-align: center;
+  font-size: 12px;
+}
+
+#figure section p{
+  margin-top: 10px;
+  margin-left: 18px;
+}
+
+
+
+ table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table tr{
+  border-bottom:0.5px solid #b7a077;
+  
+}
+
+
+
+table th,table td{
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+
+#border-none{
+  border: none;
+}
+
+#achievement{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#achievement th,#achievement td{
+  border: 1px solid #b7a077;
+  padding:8px;
+}
+
+#achievement th{
+  background-color: #EEEEEE;
+}
+
+.contact{
+  border-bottom: 1px solid silver;
+  margin-bottom: -1px;
+}
+
+#activity-date{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#activity-date th,#activity-date td{
+  border: 1px solid #b7a077;
+  padding: 8px;
+}
+
+#activity-date th{
+  background-color: #f1ede4;
+}
+
+#map{
+  margin-top: 4px;
+}
+
+#figure{
+  margin-bottom:30px;
+}
+
+#figure section{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#figure p{
+  display:inline-block;
+  margin-left: 40px;
+  
+}
+
+#figure figure{
+  float: right;
+  margin-left: 0 0 0 16px;
+}
+
+#figure figcaption{
+  color: #9C9689;
+  text-align: center;
+  font-size: 12px;
+}
+
+.mapsection{
+  margin-bottom: 50px;
+}
+
+.map{
+  margin-top: 20px;
+
+}
+
+.link{
+  padding: 10px;
+  width: 100px;
+  border: #003366;
+}
+
+
+
+.originallink:hover{
+  color: orange;
+}
+
+.achievementheight{
+  margin-top: 30px;
+}
+
+#achievement{
+  margin-top: 20px;
+}
+
+.textleft{
+  margin-left: 15px;
+}
+
+.contacthight2{
+  margin-top: 30px;
+}
+
+h1 img{
+  margin-top: 10px;
+}
+
+.pointleft{
+  margin-left: -12px;
+}
+
+#point figure img{
+  width: 280px;
+
+}
+
+#figure figure img{
+  width: 280px;
+
+}
+
+#side_banner .facebookmov{
+  display: none;
+}
+
+
+header h1 img{
+  width: 100px;
+}
+header h1 a img{
+  width: 100px;
+}
+
+
+footer ul li a{
+  color: gray;
+}
+
+footer ul li a:hover {
+  color: #FFA500;
+}
+
+
+
+
+@media screen and (max-width:767px){
+  
+  img{
+    max-width: 100%;
+  }
+  
+  header,#global_navi,#sidebar,#wrapper{
+    width:100%;
+  }
+
+  header h1 img{
+    font: left;
+    margin-top:6px;
+    margin-bottom: -10px;
+    display: inline-block;
+    }
+
+
+  header #header_contact i{
+    display: block;
+    float: right;
+    margin-top: -28px;
+    margin-bottom: -10px;
+  }
+
+  .fa{
+    margin-right: 8px;
+  }
+  .fa-envelope{
+    font-size:50px !important;
+  }
+
+  header h1{
+    float: none;
+    text-align: center;
+  }
+  
+  header h1 img{
+    width: 20%;
+  }
+  
+  #global_navi ul li{
+    width:50%;
+    padding: 0.8px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #global_navi ul li a{
+    margin: 0;
+  }
+
+  /*#global_navi ul li:last-child{
+    width: 100%;
+  }*/
+  
+  #main{
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+  
+  #main figure{
+    text-align: center;
+  }
+  
+  #main_visual{
+    width: 100%;
+    height: auto;
+  }
+  
+  #point figure{
+    float: none;
+    margin: 0 0 11px 0;
+  }
+
+  #side_banner {
+    width: 340px;
+    margin: auto;
+  }
+
+
+  .facebook{
+    display: block;
+  margin: 10px auto;
+  max-width: 100%;
+    }
+  
+  
+  #side_banner ul li{
+    text-align: center;
+    margin: 11px auto;
+  }
+
+  /* p{
+    margin-right:8% ;
+  } */
+
+  #point p br {
+    display: none;
+  }
+
+  #figure .none{
+    display: none;
+  }
+
+  #main_visual{
+    margin-bottom: -60px;
+  }
+
+  .mainimg{
+    width: 100%;
+  }
+
+  #figure figure img{
+    display: block;
+    margin:0 auto ;
+    text-align: center;
+
+  }
+
+  #staff .tdleft{
+    text-align: left;
+  }
+  
+
+  .mobilemrgin{
+    margin-left: 15px;
+  }
+
+ 
+
+  figure img{
+    margin-top: 10px;
+  }
+
+  .imgmarginright{
+    margin-top: 10px;
+    margin-right: 28px;
+    
+  }
+
+  #figure .pwidth{
+    width: 330px;
+    margin: 0 auto;
+  }
+  #figure div p{
+    margin-top: -8px;
+  }
+
+  #figure h3{
+    margin-top: 10px;
+  }
+
+
+
+ 
+
+  #side_banner .facebookmov{
+    display: block;
+  }
+
+  #side_banner .facebookhp{
+    display: none;
+  }
+
+
+  header h1 img{
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  header h1 a img{
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+
+
+  
+
+
+}
+
+
